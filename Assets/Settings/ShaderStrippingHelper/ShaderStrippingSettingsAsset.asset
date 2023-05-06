@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e00e8a30324e1647a1176e854970865, type: 3}
+  m_Name: ShaderStrippingSettingsAsset
+  m_EditorClassIdentifier: 
+  m_StrippingInfo:
+  - m_Title: Shader keywords to Track
+    m_Target: 0
+    m_Option: 2
+    m_Values:
+    - RED
+    - BLUE
+  - m_Title: Shader asset to Track
+    m_Target: 1
+    m_Option: 2
+    m_Values:
+    - Skybox/Procedural
+  - m_Title: Shader keywords to Strip
+    m_Target: 0
+    m_Option: 1
+    m_Values:
+    - RED
+    - BLUE
+  - m_Title: Strip out shader with name
+    m_Target: 1
+    m_Option: 1
+    m_Values:
+    - Skybox/Procedural
+  m_GenerateShaderVariantCollection: 1
+  m_ReportPath: Reports/
+  m_ReportFileName: ShaderBuildReport
+  m_GenerateReport: 1
+  m_ShaderVariantPath: ShaderVariants/
+  m_ShaderVariantName: ShaderVariantFromBuild
+  m_UseDateTimeForNaming: 1

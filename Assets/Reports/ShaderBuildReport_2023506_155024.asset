@@ -1,0 +1,2708 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa939ca6d6688174e8678feda2e19d5f, type: 3}
+  m_Name: ShaderBuildReport_2023506_155024
+  m_EditorClassIdentifier: 
+  m_ShadersCompiled:
+  - m_Name: Hidden/Universal Render Pipeline/Sampling
+    m_PassName: BoxDownsample
+    m_PassType: 0
+    m_ShaderType: 1
+    m_ShaderCompilerPlatform: 14
+    m_Count: 2
+    m_Keywords:
+    - _USE_DRAW_PROCEDURAL
+  - m_Name: Hidden/Universal Render Pipeline/Sampling
+    m_PassName: BoxDownsample
+    m_PassType: 0
+    m_ShaderType: 2
+    m_ShaderCompilerPlatform: 14
+    m_Count: 2
+    m_Keywords:
+    - _USE_DRAW_PROCEDURAL
+  - m_Name: Hidden/Universal Render Pipeline/ScreenSpaceAmbientOcclusion
+    m_PassName: SSAO_Occlusion
+    m_PassType: 0
+    m_ShaderType: 1
+    m_ShaderCompilerPlatform: 14
+    m_Count: 12
+    m_Keywords:
+    - _SOURCE_DEPTH
+    - _RECONSTRUCT_NORMAL_LOW
+    - _ORTHOGRAPHIC
+    - _RECONSTRUCT_NORMAL_MEDIUM
+    - _RECONSTRUCT_NORMAL_HIGH
+    - _SOURCE_DEPTH_NORMALS
+  - m_Name: Hidden/Universal Render Pipeline/ScreenSpaceAmbientOcclusion
+    m_PassName: SSAO_Occlusion
+    m_PassType: 0
+    m_ShaderType: 2
+    m_ShaderCompilerPlatform: 14
+    m_Count: 12
+    m_Keywords:
+    - _SOURCE_DEPTH
+    - _RECONSTRUCT_NORMAL_LOW
+    - _ORTHOGRAPHIC
+    - _RECONSTRUCT_NORMAL_MEDIUM
+    - _RECONSTRUCT_NORMAL_HIGH
+    - _SOURCE_DEPTH_NORMALS
+  - m_Name: Hidden/Universal Render Pipeline/ScreenSpaceAmbientOcclusion
+    m_PassName: SSAO_HorizontalBlur
+    m_PassType: 0
+    m_ShaderType: 1
+    m_ShaderCompilerPlatform: 14
+    m_Count: 4
+    m_Keywords:
+    - _SOURCE_DEPTH
+    - _SOURCE_DEPTH_NORMALS
+    - _ORTHOGRAPHIC
+  - m_Name: Hidden/Universal Render Pipeline/ScreenSpaceAmbientOcclusion
+    m_PassName: SSAO_HorizontalBlur
+    m_PassType: 0
+    m_ShaderType: 2
+    m_ShaderCompilerPlatform: 14
+    m_Count: 4
+    m_Keywords:
+    - _SOURCE_DEPTH
+    - _SOURCE_DEPTH_NORMALS
+    - _ORTHOGRAPHIC
+  - m_Name: Hidden/Universal Render Pipeline/ScreenSpaceAmbientOcclusion
+    m_PassName: SSAO_VerticalBlur
+    m_PassType: 0
+    m_ShaderType: 1
+    m_ShaderCompilerPlatform: 14
+    m_Count: 1
+    m_Keywords: []
+  - m_Name: Hidden/Universal Render Pipeline/ScreenSpaceAmbientOcclusion
+    m_PassName: SSAO_VerticalBlur
+    m_PassType: 0
+    m_ShaderType: 2
+    m_ShaderCompilerPlatform: 14
+    m_Count: 1
+    m_Keywords: []
+  - m_Name: Hidden/Universal Render Pipeline/ScreenSpaceAmbientOcclusion
+    m_PassName: SSAO_FinalBlur
+    m_PassType: 0
+    m_ShaderType: 1
+    m_ShaderCompilerPlatform: 14
+    m_Count: 1
+    m_Keywords: []
+  - m_Name: Hidden/Universal Render Pipeline/ScreenSpaceAmbientOcclusion
+    m_PassName: SSAO_FinalBlur
+    m_PassType: 0
+    m_ShaderType: 2
+    m_ShaderCompilerPlatform: 14
+    m_Count: 1
+    m_Keywords: []
+  - m_Name: Hidden/Universal Render Pipeline/ScreenSpaceAmbientOcclusion
+    m_PassName: SSAO_AfterOpaque
+    m_PassType: 0
+    m_ShaderType: 1
+    m_ShaderCompilerPlatform: 14
+    m_Count: 1
+    m_Keywords: []
+  - m_Name: Hidden/Universal Render Pipeline/ScreenSpaceAmbientOcclusion
+    m_PassName: SSAO_AfterOpaque
+    m_PassType: 0
+    m_ShaderType: 2
+    m_ShaderCompilerPlatform: 14
+    m_Count: 1
+    m_Keywords: []
+  - m_Name: Hidden/Universal Render Pipeline/Stop NaN
+    m_PassName: Stop NaN
+    m_PassType: 0
+    m_ShaderType: 1
+    m_ShaderCompilerPlatform: 14
+    m_Count: 2
+    m_Keywords:
+    - _USE_DRAW_PROCEDURAL
+  - m_Name: Hidden/Universal Render Pipeline/Stop NaN
+    m_PassName: Stop NaN
+    m_PassType: 0
+    m_ShaderType: 2
+    m_ShaderCompilerPlatform: 14
+    m_Count: 2
+    m_Keywords:
+    - _USE_DRAW_PROCEDURAL
+  - m_Name: Hidden/Universal Render Pipeline/CameraMotionBlur
+    m_PassName: Camera Motion Blur - Low Quality
+    m_PassType: 0
+    m_ShaderType: 1
+    m_ShaderCompilerPlatform: 0
+    m_Count: 0
+    m_Keywords: []
+  - m_Name: Hidden/Universal Render Pipeline/CameraMotionBlur
+    m_PassName: Camera Motion Blur - Medium Quality
+    m_PassType: 0
+    m_ShaderType: 1
+    m_ShaderCompilerPlatform: 0
+    m_Count: 0
+    m_Keywords: []
+  - m_Name: Hidden/Universal Render Pipeline/CameraMotionBlur
+    m_PassName: Camera Motion Blur - High Quality
+    m_PassType: 0
+    m_ShaderType: 1
+    m_ShaderCompilerPlatform: 0
+    m_Count: 0
+    m_Keywords: []
+  - m_Name: Hidden/Universal Render Pipeline/BokehDepthOfField
+    m_PassName: Bokeh Depth Of Field CoC
+    m_PassType: 0
+    m_ShaderType: 1
+    m_ShaderCompilerPlatform: 0
+    m_Count: 0
+    m_Keywords: []
+  - m_Name: Hidden/Universal Render Pipeline/BokehDepthOfField
+    m_PassName: Bokeh Depth Of Field Prefilter
+    m_PassType: 0
+    m_ShaderType: 1
+    m_ShaderCompilerPlatform: 0
+    m_Count: 0
+    m_Keywords: []
+  - m_Name: Hidden/Universal Render Pipeline/BokehDepthOfField
+    m_PassName: Bokeh Depth Of Field Blur
+    m_PassType: 0
+    m_ShaderType: 1
+    m_ShaderCompilerPlatform: 0
+    m_Count: 0
+    m_Keywords: []
+  - m_Name: Hidden/Universal Render Pipeline/BokehDepthOfField
+    m_PassName: Bokeh Depth Of Field Post Blur
+    m_PassType: 0
+    m_ShaderType: 1
+    m_ShaderCompilerPlatform: 0
+    m_Count: 0
+    m_Keywords: []
+  - m_Name: Hidden/Universal Render Pipeline/BokehDepthOfField
+    m_PassName: Bokeh Depth Of Field Composite
+    m_PassType: 0
+    m_ShaderType: 1
+    m_ShaderCompilerPlatform: 0
+    m_Count: 0
+    m_Keywords: []
+  - m_Name: Hidden/Universal Render Pipeline/BokehDepthOfField
+    m_PassName: Bokeh Depth Of Field CoC
+    m_PassType: 0
+    m_ShaderType: 1
+    m_ShaderCompilerPlatform: 0
+    m_Count: 0
+    m_Keywords: []
+  - m_Name: Hidden/Universal Render Pipeline/BokehDepthOfField
+    m_PassName: Bokeh Depth Of Field Prefilter
+    m_PassType: 0
+    m_ShaderType: 1
+    m_ShaderCompilerPlatform: 0
+    m_Count: 0
+    m_Keywords: []
+  - m_Name: Hidden/Universal Render Pipeline/BokehDepthOfField
+    m_PassName: Bokeh Depth Of Field Blur
+    m_PassType: 0
+    m_ShaderType: 1
+    m_ShaderCompilerPlatform: 0
+    m_Count: 0
+    m_Keywords: []
+  - m_Name: Hidden/Universal Render Pipeline/BokehDepthOfField
+    m_PassName: Bokeh Depth Of Field Post Blur
+    m_PassType: 0
+    m_ShaderType: 1
+    m_ShaderCompilerPlatform: 0
+    m_Count: 0
+    m_Keywords: []
+  - m_Name: Hidden/Universal Render Pipeline/BokehDepthOfField
+    m_PassName: Bokeh Depth Of Field Composite
+    m_PassType: 0
+    m_ShaderType: 1
+    m_ShaderCompilerPlatform: 0
+    m_Count: 0
+    m_Keywords: []
+  - m_Name: Hidden/Core/FallbackError
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 1
+    m_ShaderCompilerPlatform: 14
+    m_Count: 1
+    m_Keywords: []
+  - m_Name: Hidden/Core/FallbackError
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 2
+    m_ShaderCompilerPlatform: 14
+    m_Count: 1
+    m_Keywords: []
+  - m_Name: Hidden/Universal Render Pipeline/XR/XROcclusionMesh
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 1
+    m_ShaderCompilerPlatform: 14
+    m_Count: 2
+    m_Keywords:
+    - XR_OCCLUSION_MESH_COMBINED
+  - m_Name: Hidden/Universal Render Pipeline/XR/XROcclusionMesh
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 2
+    m_ShaderCompilerPlatform: 14
+    m_Count: 2
+    m_Keywords:
+    - XR_OCCLUSION_MESH_COMBINED
+  - m_Name: Hidden/Universal Render Pipeline/Edge Adaptive Spatial Upsampling
+    m_PassName: EASU
+    m_PassType: 0
+    m_ShaderType: 1
+    m_ShaderCompilerPlatform: 14
+    m_Count: 2
+    m_Keywords:
+    - _USE_DRAW_PROCEDURAL
+  - m_Name: Hidden/Universal Render Pipeline/Edge Adaptive Spatial Upsampling
+    m_PassName: EASU
+    m_PassType: 0
+    m_ShaderType: 2
+    m_ShaderCompilerPlatform: 14
+    m_Count: 1
+    m_Keywords: []
+  - m_Name: Hidden/Universal Render Pipeline/GaussianDepthOfField
+    m_PassName: Gaussian Depth Of Field CoC
+    m_PassType: 0
+    m_ShaderType: 1
+    m_ShaderCompilerPlatform: 0
+    m_Count: 0
+    m_Keywords: []
+  - m_Name: Hidden/Universal Render Pipeline/GaussianDepthOfField
+    m_PassName: Gaussian Depth Of Field Prefilter
+    m_PassType: 0
+    m_ShaderType: 1
+    m_ShaderCompilerPlatform: 0
+    m_Count: 0
+    m_Keywords: []
+  - m_Name: Hidden/Universal Render Pipeline/GaussianDepthOfField
+    m_PassName: Gaussian Depth Of Field Blur Horizontal
+    m_PassType: 0
+    m_ShaderType: 1
+    m_ShaderCompilerPlatform: 0
+    m_Count: 0
+    m_Keywords: []
+  - m_Name: Hidden/Universal Render Pipeline/GaussianDepthOfField
+    m_PassName: Gaussian Depth Of Field Blur Vertical
+    m_PassType: 0
+    m_ShaderType: 1
+    m_ShaderCompilerPlatform: 0
+    m_Count: 0
+    m_Keywords: []
+  - m_Name: Hidden/Universal Render Pipeline/GaussianDepthOfField
+    m_PassName: Gaussian Depth Of Field Composite
+    m_PassType: 0
+    m_ShaderType: 1
+    m_ShaderCompilerPlatform: 0
+    m_Count: 0
+    m_Keywords: []
+  - m_Name: Hidden/Universal Render Pipeline/Bloom
+    m_PassName: Bloom Prefilter
+    m_PassType: 0
+    m_ShaderType: 1
+    m_ShaderCompilerPlatform: 14
+    m_Count: 8
+    m_Keywords:
+    - _BLOOM_HQ
+    - _USE_RGBM
+    - _USE_DRAW_PROCEDURAL
+  - m_Name: Hidden/Universal Render Pipeline/Bloom
+    m_PassName: Bloom Prefilter
+    m_PassType: 0
+    m_ShaderType: 2
+    m_ShaderCompilerPlatform: 14
+    m_Count: 8
+    m_Keywords:
+    - _BLOOM_HQ
+    - _USE_RGBM
+    - _USE_DRAW_PROCEDURAL
+  - m_Name: Hidden/Universal Render Pipeline/Bloom
+    m_PassName: Bloom Blur Horizontal
+    m_PassType: 0
+    m_ShaderType: 1
+    m_ShaderCompilerPlatform: 14
+    m_Count: 4
+    m_Keywords:
+    - _USE_RGBM
+    - _USE_DRAW_PROCEDURAL
+  - m_Name: Hidden/Universal Render Pipeline/Bloom
+    m_PassName: Bloom Blur Horizontal
+    m_PassType: 0
+    m_ShaderType: 2
+    m_ShaderCompilerPlatform: 14
+    m_Count: 4
+    m_Keywords:
+    - _USE_RGBM
+    - _USE_DRAW_PROCEDURAL
+  - m_Name: Hidden/Universal Render Pipeline/Bloom
+    m_PassName: Bloom Blur Vertical
+    m_PassType: 0
+    m_ShaderType: 1
+    m_ShaderCompilerPlatform: 14
+    m_Count: 4
+    m_Keywords:
+    - _USE_RGBM
+    - _USE_DRAW_PROCEDURAL
+  - m_Name: Hidden/Universal Render Pipeline/Bloom
+    m_PassName: Bloom Blur Vertical
+    m_PassType: 0
+    m_ShaderType: 2
+    m_ShaderCompilerPlatform: 14
+    m_Count: 4
+    m_Keywords:
+    - _USE_RGBM
+    - _USE_DRAW_PROCEDURAL
+  - m_Name: Hidden/Universal Render Pipeline/Bloom
+    m_PassName: Bloom Upsample
+    m_PassType: 0
+    m_ShaderType: 1
+    m_ShaderCompilerPlatform: 14
+    m_Count: 8
+    m_Keywords:
+    - _BLOOM_HQ
+    - _USE_RGBM
+    - _USE_DRAW_PROCEDURAL
+  - m_Name: Hidden/Universal Render Pipeline/Bloom
+    m_PassName: Bloom Upsample
+    m_PassType: 0
+    m_ShaderType: 2
+    m_ShaderCompilerPlatform: 14
+    m_Count: 8
+    m_Keywords:
+    - _BLOOM_HQ
+    - _USE_RGBM
+    - _USE_DRAW_PROCEDURAL
+  - m_Name: Hidden/Universal Render Pipeline/MaterialError
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 1
+    m_ShaderCompilerPlatform: 14
+    m_Count: 1
+    m_Keywords: []
+  - m_Name: Hidden/Universal Render Pipeline/MaterialError
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 2
+    m_ShaderCompilerPlatform: 14
+    m_Count: 1
+    m_Keywords: []
+  - m_Name: Hidden/Universal Render Pipeline/SubpixelMorphologicalAntialiasing
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 1
+    m_ShaderCompilerPlatform: 14
+    m_Count: 6
+    m_Keywords:
+    - _SMAA_PRESET_LOW
+    - _SMAA_PRESET_MEDIUM
+    - _SMAA_PRESET_HIGH
+    - _USE_DRAW_PROCEDURAL
+  - m_Name: Hidden/Universal Render Pipeline/SubpixelMorphologicalAntialiasing
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 2
+    m_ShaderCompilerPlatform: 14
+    m_Count: 6
+    m_Keywords:
+    - _SMAA_PRESET_LOW
+    - _SMAA_PRESET_MEDIUM
+    - _SMAA_PRESET_HIGH
+    - _USE_DRAW_PROCEDURAL
+  - m_Name: Hidden/Universal Render Pipeline/SubpixelMorphologicalAntialiasing
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 1
+    m_ShaderCompilerPlatform: 14
+    m_Count: 6
+    m_Keywords:
+    - _SMAA_PRESET_LOW
+    - _SMAA_PRESET_MEDIUM
+    - _SMAA_PRESET_HIGH
+    - _USE_DRAW_PROCEDURAL
+  - m_Name: Hidden/Universal Render Pipeline/SubpixelMorphologicalAntialiasing
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 2
+    m_ShaderCompilerPlatform: 14
+    m_Count: 6
+    m_Keywords:
+    - _SMAA_PRESET_LOW
+    - _SMAA_PRESET_MEDIUM
+    - _SMAA_PRESET_HIGH
+    - _USE_DRAW_PROCEDURAL
+  - m_Name: Hidden/Universal Render Pipeline/SubpixelMorphologicalAntialiasing
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 1
+    m_ShaderCompilerPlatform: 14
+    m_Count: 6
+    m_Keywords:
+    - _SMAA_PRESET_LOW
+    - _SMAA_PRESET_MEDIUM
+    - _SMAA_PRESET_HIGH
+    - _USE_DRAW_PROCEDURAL
+  - m_Name: Hidden/Universal Render Pipeline/SubpixelMorphologicalAntialiasing
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 2
+    m_ShaderCompilerPlatform: 14
+    m_Count: 6
+    m_Keywords:
+    - _SMAA_PRESET_LOW
+    - _SMAA_PRESET_MEDIUM
+    - _SMAA_PRESET_HIGH
+    - _USE_DRAW_PROCEDURAL
+  - m_Name: Hidden/Universal Render Pipeline/LutBuilderLdr
+    m_PassName: LutBuilderLdr
+    m_PassType: 0
+    m_ShaderType: 1
+    m_ShaderCompilerPlatform: 14
+    m_Count: 1
+    m_Keywords: []
+  - m_Name: Hidden/Universal Render Pipeline/LutBuilderLdr
+    m_PassName: LutBuilderLdr
+    m_PassType: 0
+    m_ShaderType: 2
+    m_ShaderCompilerPlatform: 14
+    m_Count: 1
+    m_Keywords: []
+  - m_Name: Hidden/Universal Render Pipeline/LensFlareDataDriven
+    m_PassName: LensFlareAdditive
+    m_PassType: 0
+    m_ShaderType: 1
+    m_ShaderCompilerPlatform: 14
+    m_Count: 2
+    m_Keywords:
+    - FLARE_OCCLUSION
+  - m_Name: Hidden/Universal Render Pipeline/LensFlareDataDriven
+    m_PassName: LensFlareAdditive
+    m_PassType: 0
+    m_ShaderType: 2
+    m_ShaderCompilerPlatform: 14
+    m_Count: 12
+    m_Keywords:
+    - FLARE_OCCLUSION
+    - FLARE_INVERSE_SDF
+    - FLARE_CIRCLE
+    - FLARE_POLYGON
+  - m_Name: Hidden/Universal Render Pipeline/LensFlareDataDriven
+    m_PassName: LensFlareScreen
+    m_PassType: 0
+    m_ShaderType: 1
+    m_ShaderCompilerPlatform: 14
+    m_Count: 2
+    m_Keywords:
+    - FLARE_OCCLUSION
+  - m_Name: Hidden/Universal Render Pipeline/LensFlareDataDriven
+    m_PassName: LensFlareScreen
+    m_PassType: 0
+    m_ShaderType: 2
+    m_ShaderCompilerPlatform: 14
+    m_Count: 12
+    m_Keywords:
+    - FLARE_OCCLUSION
+    - FLARE_INVERSE_SDF
+    - FLARE_CIRCLE
+    - FLARE_POLYGON
+  - m_Name: Hidden/Universal Render Pipeline/LensFlareDataDriven
+    m_PassName: LensFlarePremultiply
+    m_PassType: 0
+    m_ShaderType: 1
+    m_ShaderCompilerPlatform: 14
+    m_Count: 2
+    m_Keywords:
+    - FLARE_OCCLUSION
+  - m_Name: Hidden/Universal Render Pipeline/LensFlareDataDriven
+    m_PassName: LensFlarePremultiply
+    m_PassType: 0
+    m_ShaderType: 2
+    m_ShaderCompilerPlatform: 14
+    m_Count: 12
+    m_Keywords:
+    - FLARE_OCCLUSION
+    - FLARE_INVERSE_SDF
+    - FLARE_CIRCLE
+    - FLARE_POLYGON
+  - m_Name: Hidden/Universal Render Pipeline/LensFlareDataDriven
+    m_PassName: LensFlareLerp
+    m_PassType: 0
+    m_ShaderType: 1
+    m_ShaderCompilerPlatform: 14
+    m_Count: 2
+    m_Keywords:
+    - FLARE_OCCLUSION
+  - m_Name: Hidden/Universal Render Pipeline/LensFlareDataDriven
+    m_PassName: LensFlareLerp
+    m_PassType: 0
+    m_ShaderType: 2
+    m_ShaderCompilerPlatform: 14
+    m_Count: 12
+    m_Keywords:
+    - FLARE_OCCLUSION
+    - FLARE_INVERSE_SDF
+    - FLARE_CIRCLE
+    - FLARE_POLYGON
+  - m_Name: Hidden/kMotion/ObjectMotionVectors
+    m_PassName: 
+    m_PassType: 12
+    m_ShaderType: 1
+    m_ShaderCompilerPlatform: 14
+    m_Count: 1
+    m_Keywords: []
+  - m_Name: Hidden/kMotion/ObjectMotionVectors
+    m_PassName: 
+    m_PassType: 12
+    m_ShaderType: 2
+    m_ShaderCompilerPlatform: 14
+    m_Count: 1
+    m_Keywords: []
+  - m_Name: Hidden/Universal/CoreBlit
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 1
+    m_ShaderCompilerPlatform: 14
+    m_Count: 4
+    m_Keywords:
+    - BLIT_SINGLE_SLICE
+    - DISABLE_TEXTURE2D_X_ARRAY
+  - m_Name: Hidden/Universal/CoreBlit
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 2
+    m_ShaderCompilerPlatform: 14
+    m_Count: 4
+    m_Keywords:
+    - BLIT_SINGLE_SLICE
+    - DISABLE_TEXTURE2D_X_ARRAY
+  - m_Name: Hidden/Universal/CoreBlit
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 1
+    m_ShaderCompilerPlatform: 14
+    m_Count: 4
+    m_Keywords:
+    - BLIT_SINGLE_SLICE
+    - DISABLE_TEXTURE2D_X_ARRAY
+  - m_Name: Hidden/Universal/CoreBlit
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 2
+    m_ShaderCompilerPlatform: 14
+    m_Count: 4
+    m_Keywords:
+    - BLIT_SINGLE_SLICE
+    - DISABLE_TEXTURE2D_X_ARRAY
+  - m_Name: Hidden/Universal/CoreBlit
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 1
+    m_ShaderCompilerPlatform: 14
+    m_Count: 4
+    m_Keywords:
+    - BLIT_SINGLE_SLICE
+    - DISABLE_TEXTURE2D_X_ARRAY
+  - m_Name: Hidden/Universal/CoreBlit
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 2
+    m_ShaderCompilerPlatform: 14
+    m_Count: 4
+    m_Keywords:
+    - BLIT_SINGLE_SLICE
+    - DISABLE_TEXTURE2D_X_ARRAY
+  - m_Name: Hidden/Universal/CoreBlit
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 1
+    m_ShaderCompilerPlatform: 14
+    m_Count: 4
+    m_Keywords:
+    - BLIT_SINGLE_SLICE
+    - DISABLE_TEXTURE2D_X_ARRAY
+  - m_Name: Hidden/Universal/CoreBlit
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 2
+    m_ShaderCompilerPlatform: 14
+    m_Count: 4
+    m_Keywords:
+    - BLIT_SINGLE_SLICE
+    - DISABLE_TEXTURE2D_X_ARRAY
+  - m_Name: Hidden/Universal/CoreBlit
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 1
+    m_ShaderCompilerPlatform: 14
+    m_Count: 4
+    m_Keywords:
+    - BLIT_SINGLE_SLICE
+    - DISABLE_TEXTURE2D_X_ARRAY
+  - m_Name: Hidden/Universal/CoreBlit
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 2
+    m_ShaderCompilerPlatform: 14
+    m_Count: 4
+    m_Keywords:
+    - BLIT_SINGLE_SLICE
+    - DISABLE_TEXTURE2D_X_ARRAY
+  - m_Name: Hidden/Universal/CoreBlit
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 1
+    m_ShaderCompilerPlatform: 14
+    m_Count: 4
+    m_Keywords:
+    - BLIT_SINGLE_SLICE
+    - DISABLE_TEXTURE2D_X_ARRAY
+  - m_Name: Hidden/Universal/CoreBlit
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 2
+    m_ShaderCompilerPlatform: 14
+    m_Count: 4
+    m_Keywords:
+    - BLIT_SINGLE_SLICE
+    - DISABLE_TEXTURE2D_X_ARRAY
+  - m_Name: Hidden/Universal/CoreBlit
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 1
+    m_ShaderCompilerPlatform: 14
+    m_Count: 4
+    m_Keywords:
+    - BLIT_SINGLE_SLICE
+    - DISABLE_TEXTURE2D_X_ARRAY
+  - m_Name: Hidden/Universal/CoreBlit
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 2
+    m_ShaderCompilerPlatform: 14
+    m_Count: 4
+    m_Keywords:
+    - BLIT_SINGLE_SLICE
+    - DISABLE_TEXTURE2D_X_ARRAY
+  - m_Name: Hidden/Universal/CoreBlit
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 1
+    m_ShaderCompilerPlatform: 14
+    m_Count: 4
+    m_Keywords:
+    - BLIT_SINGLE_SLICE
+    - DISABLE_TEXTURE2D_X_ARRAY
+  - m_Name: Hidden/Universal/CoreBlit
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 2
+    m_ShaderCompilerPlatform: 14
+    m_Count: 4
+    m_Keywords:
+    - BLIT_SINGLE_SLICE
+    - DISABLE_TEXTURE2D_X_ARRAY
+  - m_Name: Hidden/Universal/CoreBlit
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 1
+    m_ShaderCompilerPlatform: 14
+    m_Count: 4
+    m_Keywords:
+    - BLIT_SINGLE_SLICE
+    - DISABLE_TEXTURE2D_X_ARRAY
+  - m_Name: Hidden/Universal/CoreBlit
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 2
+    m_ShaderCompilerPlatform: 14
+    m_Count: 4
+    m_Keywords:
+    - BLIT_SINGLE_SLICE
+    - DISABLE_TEXTURE2D_X_ARRAY
+  - m_Name: Hidden/Universal/CoreBlit
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 1
+    m_ShaderCompilerPlatform: 14
+    m_Count: 4
+    m_Keywords:
+    - BLIT_SINGLE_SLICE
+    - DISABLE_TEXTURE2D_X_ARRAY
+  - m_Name: Hidden/Universal/CoreBlit
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 2
+    m_ShaderCompilerPlatform: 14
+    m_Count: 4
+    m_Keywords:
+    - BLIT_SINGLE_SLICE
+    - DISABLE_TEXTURE2D_X_ARRAY
+  - m_Name: Hidden/Universal/CoreBlit
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 1
+    m_ShaderCompilerPlatform: 14
+    m_Count: 4
+    m_Keywords:
+    - BLIT_SINGLE_SLICE
+    - DISABLE_TEXTURE2D_X_ARRAY
+  - m_Name: Hidden/Universal/CoreBlit
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 2
+    m_ShaderCompilerPlatform: 14
+    m_Count: 4
+    m_Keywords:
+    - BLIT_SINGLE_SLICE
+    - DISABLE_TEXTURE2D_X_ARRAY
+  - m_Name: Hidden/Universal/CoreBlit
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 1
+    m_ShaderCompilerPlatform: 14
+    m_Count: 4
+    m_Keywords:
+    - BLIT_SINGLE_SLICE
+    - DISABLE_TEXTURE2D_X_ARRAY
+  - m_Name: Hidden/Universal/CoreBlit
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 2
+    m_ShaderCompilerPlatform: 14
+    m_Count: 4
+    m_Keywords:
+    - BLIT_SINGLE_SLICE
+    - DISABLE_TEXTURE2D_X_ARRAY
+  - m_Name: Hidden/Universal/CoreBlit
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 1
+    m_ShaderCompilerPlatform: 14
+    m_Count: 4
+    m_Keywords:
+    - BLIT_SINGLE_SLICE
+    - DISABLE_TEXTURE2D_X_ARRAY
+  - m_Name: Hidden/Universal/CoreBlit
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 2
+    m_ShaderCompilerPlatform: 14
+    m_Count: 4
+    m_Keywords:
+    - BLIT_SINGLE_SLICE
+    - DISABLE_TEXTURE2D_X_ARRAY
+  - m_Name: Hidden/Universal/CoreBlit
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 1
+    m_ShaderCompilerPlatform: 14
+    m_Count: 4
+    m_Keywords:
+    - BLIT_SINGLE_SLICE
+    - DISABLE_TEXTURE2D_X_ARRAY
+  - m_Name: Hidden/Universal/CoreBlit
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 2
+    m_ShaderCompilerPlatform: 14
+    m_Count: 4
+    m_Keywords:
+    - BLIT_SINGLE_SLICE
+    - DISABLE_TEXTURE2D_X_ARRAY
+  - m_Name: Hidden/Universal/CoreBlit
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 1
+    m_ShaderCompilerPlatform: 14
+    m_Count: 4
+    m_Keywords:
+    - BLIT_SINGLE_SLICE
+    - DISABLE_TEXTURE2D_X_ARRAY
+  - m_Name: Hidden/Universal/CoreBlit
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 2
+    m_ShaderCompilerPlatform: 14
+    m_Count: 4
+    m_Keywords:
+    - BLIT_SINGLE_SLICE
+    - DISABLE_TEXTURE2D_X_ARRAY
+  - m_Name: Hidden/Universal/CoreBlit
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 1
+    m_ShaderCompilerPlatform: 14
+    m_Count: 4
+    m_Keywords:
+    - BLIT_SINGLE_SLICE
+    - DISABLE_TEXTURE2D_X_ARRAY
+  - m_Name: Hidden/Universal/CoreBlit
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 2
+    m_ShaderCompilerPlatform: 14
+    m_Count: 4
+    m_Keywords:
+    - BLIT_SINGLE_SLICE
+    - DISABLE_TEXTURE2D_X_ARRAY
+  - m_Name: Hidden/Universal/CoreBlit
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 1
+    m_ShaderCompilerPlatform: 14
+    m_Count: 4
+    m_Keywords:
+    - BLIT_SINGLE_SLICE
+    - DISABLE_TEXTURE2D_X_ARRAY
+  - m_Name: Hidden/Universal/CoreBlit
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 2
+    m_ShaderCompilerPlatform: 14
+    m_Count: 4
+    m_Keywords:
+    - BLIT_SINGLE_SLICE
+    - DISABLE_TEXTURE2D_X_ARRAY
+  - m_Name: Hidden/Universal/CoreBlit
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 1
+    m_ShaderCompilerPlatform: 14
+    m_Count: 4
+    m_Keywords:
+    - BLIT_SINGLE_SLICE
+    - DISABLE_TEXTURE2D_X_ARRAY
+  - m_Name: Hidden/Universal/CoreBlit
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 2
+    m_ShaderCompilerPlatform: 14
+    m_Count: 4
+    m_Keywords:
+    - BLIT_SINGLE_SLICE
+    - DISABLE_TEXTURE2D_X_ARRAY
+  - m_Name: Hidden/Universal/CoreBlit
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 1
+    m_ShaderCompilerPlatform: 14
+    m_Count: 4
+    m_Keywords:
+    - BLIT_SINGLE_SLICE
+    - DISABLE_TEXTURE2D_X_ARRAY
+  - m_Name: Hidden/Universal/CoreBlit
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 2
+    m_ShaderCompilerPlatform: 14
+    m_Count: 4
+    m_Keywords:
+    - BLIT_SINGLE_SLICE
+    - DISABLE_TEXTURE2D_X_ARRAY
+  - m_Name: Hidden/Universal/CoreBlit
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 1
+    m_ShaderCompilerPlatform: 14
+    m_Count: 4
+    m_Keywords:
+    - BLIT_SINGLE_SLICE
+    - DISABLE_TEXTURE2D_X_ARRAY
+  - m_Name: Hidden/Universal/CoreBlit
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 2
+    m_ShaderCompilerPlatform: 14
+    m_Count: 4
+    m_Keywords:
+    - BLIT_SINGLE_SLICE
+    - DISABLE_TEXTURE2D_X_ARRAY
+  - m_Name: Hidden/Universal/CoreBlit
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 1
+    m_ShaderCompilerPlatform: 14
+    m_Count: 4
+    m_Keywords:
+    - BLIT_SINGLE_SLICE
+    - DISABLE_TEXTURE2D_X_ARRAY
+  - m_Name: Hidden/Universal/CoreBlit
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 2
+    m_ShaderCompilerPlatform: 14
+    m_Count: 4
+    m_Keywords:
+    - BLIT_SINGLE_SLICE
+    - DISABLE_TEXTURE2D_X_ARRAY
+  - m_Name: Hidden/Universal Render Pipeline/PaniniProjection
+    m_PassName: Panini Projection
+    m_PassType: 0
+    m_ShaderType: 1
+    m_ShaderCompilerPlatform: 0
+    m_Count: 0
+    m_Keywords: []
+  - m_Name: Hidden/Universal Render Pipeline/Blit
+    m_PassName: Blit
+    m_PassType: 0
+    m_ShaderType: 1
+    m_ShaderCompilerPlatform: 14
+    m_Count: 2
+    m_Keywords:
+    - _USE_DRAW_PROCEDURAL
+  - m_Name: Hidden/Universal Render Pipeline/Blit
+    m_PassName: Blit
+    m_PassType: 0
+    m_ShaderType: 2
+    m_ShaderCompilerPlatform: 14
+    m_Count: 4
+    m_Keywords:
+    - _USE_DRAW_PROCEDURAL
+    - _LINEAR_TO_SRGB_CONVERSION
+  - m_Name: Hidden/Universal Render Pipeline/FinalPost
+    m_PassName: FinalPost
+    m_PassType: 0
+    m_ShaderType: 1
+    m_ShaderCompilerPlatform: 14
+    m_Count: 2
+    m_Keywords:
+    - _USE_DRAW_PROCEDURAL
+  - m_Name: Hidden/Universal Render Pipeline/FinalPost
+    m_PassName: FinalPost
+    m_PassType: 0
+    m_ShaderType: 2
+    m_ShaderCompilerPlatform: 14
+    m_Count: 48
+    m_Keywords:
+    - _LINEAR_TO_SRGB_CONVERSION
+    - _DITHERING
+    - _USE_DRAW_PROCEDURAL
+    - _RCAS
+    - _FXAA
+    - _POINT_SAMPLING
+  - m_Name: Hidden/Universal Render Pipeline/FinalPost
+    m_PassName: FinalPost
+    m_PassType: 0
+    m_ShaderType: 1
+    m_ShaderCompilerPlatform: 14
+    m_Count: 2
+    m_Keywords:
+    - _USE_DRAW_PROCEDURAL
+  - m_Name: Hidden/Universal Render Pipeline/FinalPost
+    m_PassName: FinalPost
+    m_PassType: 0
+    m_ShaderType: 2
+    m_ShaderCompilerPlatform: 14
+    m_Count: 48
+    m_Keywords:
+    - _LINEAR_TO_SRGB_CONVERSION
+    - _DITHERING
+    - _USE_DRAW_PROCEDURAL
+    - _RCAS
+    - _FXAA
+    - _POINT_SAMPLING
+  - m_Name: Hidden/kMotion/CameraMotionVectors
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 1
+    m_ShaderCompilerPlatform: 14
+    m_Count: 1
+    m_Keywords: []
+  - m_Name: Hidden/kMotion/CameraMotionVectors
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 2
+    m_ShaderCompilerPlatform: 14
+    m_Count: 1
+    m_Keywords: []
+  - m_Name: Hidden/Universal Render Pipeline/Debug/DebugReplacement
+    m_PassName: Vertex Attributes
+    m_PassType: 13
+    m_ShaderType: 1
+    m_ShaderCompilerPlatform: 14
+    m_Count: 1
+    m_Keywords: []
+  - m_Name: Hidden/Universal Render Pipeline/Debug/DebugReplacement
+    m_PassName: Vertex Attributes
+    m_PassType: 13
+    m_ShaderType: 2
+    m_ShaderCompilerPlatform: 14
+    m_Count: 1
+    m_Keywords: []
+  - m_Name: Hidden/Universal/CoreBlitColorAndDepth
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 1
+    m_ShaderCompilerPlatform: 14
+    m_Count: 4
+    m_Keywords:
+    - BLIT_SINGLE_SLICE
+    - DISABLE_TEXTURE2D_X_ARRAY
+  - m_Name: Hidden/Universal/CoreBlitColorAndDepth
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 2
+    m_ShaderCompilerPlatform: 14
+    m_Count: 4
+    m_Keywords:
+    - BLIT_SINGLE_SLICE
+    - DISABLE_TEXTURE2D_X_ARRAY
+  - m_Name: Hidden/Universal/CoreBlitColorAndDepth
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 1
+    m_ShaderCompilerPlatform: 14
+    m_Count: 4
+    m_Keywords:
+    - BLIT_SINGLE_SLICE
+    - DISABLE_TEXTURE2D_X_ARRAY
+  - m_Name: Hidden/Universal/CoreBlitColorAndDepth
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 2
+    m_ShaderCompilerPlatform: 14
+    m_Count: 4
+    m_Keywords:
+    - BLIT_SINGLE_SLICE
+    - DISABLE_TEXTURE2D_X_ARRAY
+  - m_Name: Hidden/Universal Render Pipeline/XR/XRMirrorView
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 1
+    m_ShaderCompilerPlatform: 14
+    m_Count: 1
+    m_Keywords: []
+  - m_Name: Hidden/Universal Render Pipeline/XR/XRMirrorView
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 2
+    m_ShaderCompilerPlatform: 14
+    m_Count: 1
+    m_Keywords: []
+  - m_Name: Hidden/Universal Render Pipeline/XR/XRMirrorView
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 1
+    m_ShaderCompilerPlatform: 14
+    m_Count: 1
+    m_Keywords: []
+  - m_Name: Hidden/Universal Render Pipeline/XR/XRMirrorView
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 2
+    m_ShaderCompilerPlatform: 14
+    m_Count: 1
+    m_Keywords: []
+  - m_Name: Hidden/Universal Render Pipeline/CopyDepth
+    m_PassName: CopyDepth
+    m_PassType: 0
+    m_ShaderType: 1
+    m_ShaderCompilerPlatform: 14
+    m_Count: 8
+    m_Keywords:
+    - _USE_DRAW_PROCEDURAL
+    - _DEPTH_MSAA_2
+    - _DEPTH_MSAA_4
+    - _DEPTH_MSAA_8
+  - m_Name: Hidden/Universal Render Pipeline/CopyDepth
+    m_PassName: CopyDepth
+    m_PassType: 0
+    m_ShaderType: 2
+    m_ShaderCompilerPlatform: 14
+    m_Count: 8
+    m_Keywords:
+    - _USE_DRAW_PROCEDURAL
+    - _DEPTH_MSAA_2
+    - _DEPTH_MSAA_4
+    - _DEPTH_MSAA_8
+  - m_Name: Hidden/Universal Render Pipeline/FallbackError
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 1
+    m_ShaderCompilerPlatform: 14
+    m_Count: 1
+    m_Keywords: []
+  - m_Name: Hidden/Universal Render Pipeline/FallbackError
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 2
+    m_ShaderCompilerPlatform: 14
+    m_Count: 1
+    m_Keywords: []
+  - m_Name: Hidden/Universal Render Pipeline/UberPost
+    m_PassName: UberPost
+    m_PassType: 0
+    m_ShaderType: 1
+    m_ShaderCompilerPlatform: 14
+    m_Count: 2
+    m_Keywords:
+    - _USE_DRAW_PROCEDURAL
+  - m_Name: Hidden/Universal Render Pipeline/UberPost
+    m_PassName: UberPost
+    m_PassType: 0
+    m_ShaderType: 2
+    m_ShaderCompilerPlatform: 14
+    m_Count: 240
+    m_Keywords:
+    - _GAMMA_20
+    - _LINEAR_TO_SRGB_CONVERSION
+    - _DITHERING
+    - _USE_DRAW_PROCEDURAL
+    - _BLOOM_HQ_DIRT
+    - _TONEMAP_NEUTRAL
+    - _HDR_GRADING
+    - _TONEMAP_ACES
+    - _BLOOM_LQ
+    - _BLOOM_LQ_DIRT
+    - _BLOOM_HQ
+  - m_Name: Hidden/Universal Render Pipeline/Scaling Setup
+    m_PassName: ScalingSetup
+    m_PassType: 0
+    m_ShaderType: 1
+    m_ShaderCompilerPlatform: 14
+    m_Count: 2
+    m_Keywords:
+    - _USE_DRAW_PROCEDURAL
+  - m_Name: Hidden/Universal Render Pipeline/Scaling Setup
+    m_PassName: ScalingSetup
+    m_PassType: 0
+    m_ShaderType: 2
+    m_ShaderCompilerPlatform: 14
+    m_Count: 4
+    m_Keywords:
+    - _GAMMA_20
+    - _FXAA
+  - m_Name: Hidden/Universal Render Pipeline/StencilDeferred
+    m_PassName: Stencil Volume
+    m_PassType: 0
+    m_ShaderType: 1
+    m_ShaderCompilerPlatform: 0
+    m_Count: 0
+    m_Keywords: []
+  - m_Name: Hidden/Universal Render Pipeline/StencilDeferred
+    m_PassName: Deferred Punctual Light (Lit)
+    m_PassType: 0
+    m_ShaderType: 1
+    m_ShaderCompilerPlatform: 0
+    m_Count: 0
+    m_Keywords: []
+  - m_Name: Hidden/Universal Render Pipeline/StencilDeferred
+    m_PassName: Deferred Punctual Light (SimpleLit)
+    m_PassType: 0
+    m_ShaderType: 1
+    m_ShaderCompilerPlatform: 0
+    m_Count: 0
+    m_Keywords: []
+  - m_Name: Hidden/Universal Render Pipeline/StencilDeferred
+    m_PassName: Deferred Directional Light (Lit)
+    m_PassType: 0
+    m_ShaderType: 1
+    m_ShaderCompilerPlatform: 0
+    m_Count: 0
+    m_Keywords: []
+  - m_Name: Hidden/Universal Render Pipeline/StencilDeferred
+    m_PassName: Deferred Directional Light (SimpleLit)
+    m_PassType: 0
+    m_ShaderType: 1
+    m_ShaderCompilerPlatform: 0
+    m_Count: 0
+    m_Keywords: []
+  - m_Name: Hidden/Universal Render Pipeline/StencilDeferred
+    m_PassName: ClearStencilPartial
+    m_PassType: 0
+    m_ShaderType: 1
+    m_ShaderCompilerPlatform: 0
+    m_Count: 0
+    m_Keywords: []
+  - m_Name: Hidden/Universal Render Pipeline/StencilDeferred
+    m_PassName: SSAOOnly
+    m_PassType: 0
+    m_ShaderType: 1
+    m_ShaderCompilerPlatform: 0
+    m_Count: 0
+    m_Keywords: []
+  - m_Name: Hidden/Universal Render Pipeline/LutBuilderHdr
+    m_PassName: LutBuilderHdr
+    m_PassType: 0
+    m_ShaderType: 1
+    m_ShaderCompilerPlatform: 14
+    m_Count: 3
+    m_Keywords:
+    - _TONEMAP_ACES
+    - _TONEMAP_NEUTRAL
+  - m_Name: Hidden/Universal Render Pipeline/LutBuilderHdr
+    m_PassName: LutBuilderHdr
+    m_PassType: 0
+    m_ShaderType: 2
+    m_ShaderCompilerPlatform: 14
+    m_Count: 3
+    m_Keywords:
+    - _TONEMAP_ACES
+    - _TONEMAP_NEUTRAL
+  - m_Name: Skybox/Procedural
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 1
+    m_ShaderCompilerPlatform: 0
+    m_Count: 0
+    m_Keywords: []
+  - m_Name: Custom/UnlitTest
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 1
+    m_ShaderCompilerPlatform: 0
+    m_Count: 0
+    m_Keywords: []
+  - m_Name: Legacy Shaders/VertexLit
+    m_PassName: 
+    m_PassType: 1
+    m_ShaderType: 1
+    m_ShaderCompilerPlatform: 14
+    m_Count: 3
+    m_Keywords:
+    - POINT
+    - SPOT
+  - m_Name: Legacy Shaders/VertexLit
+    m_PassName: 
+    m_PassType: 1
+    m_ShaderType: 2
+    m_ShaderCompilerPlatform: 14
+    m_Count: 3
+    m_Keywords:
+    - POINT
+    - SPOT
+  - m_Name: Legacy Shaders/VertexLit
+    m_PassName: 
+    m_PassType: 2
+    m_ShaderType: 1
+    m_ShaderCompilerPlatform: 14
+    m_Count: 1
+    m_Keywords: []
+  - m_Name: Legacy Shaders/VertexLit
+    m_PassName: 
+    m_PassType: 2
+    m_ShaderType: 2
+    m_ShaderCompilerPlatform: 14
+    m_Count: 1
+    m_Keywords: []
+  - m_Name: Legacy Shaders/VertexLit
+    m_PassName: ShadowCaster
+    m_PassType: 8
+    m_ShaderType: 1
+    m_ShaderCompilerPlatform: 14
+    m_Count: 2
+    m_Keywords:
+    - SHADOWS_DEPTH
+    - SHADOWS_CUBE
+  - m_Name: Legacy Shaders/VertexLit
+    m_PassName: ShadowCaster
+    m_PassType: 8
+    m_ShaderType: 2
+    m_ShaderCompilerPlatform: 14
+    m_Count: 2
+    m_Keywords:
+    - SHADOWS_DEPTH
+    - SHADOWS_CUBE
+  - m_Name: Legacy Shaders/Diffuse
+    m_PassName: FORWARD
+    m_PassType: 4
+    m_ShaderType: 1
+    m_ShaderCompilerPlatform: 14
+    m_Count: 8
+    m_Keywords:
+    - DIRECTIONAL
+    - LIGHTPROBE_SH
+    - SHADOWS_SCREEN
+    - VERTEXLIGHT_ON
+  - m_Name: Legacy Shaders/Diffuse
+    m_PassName: FORWARD
+    m_PassType: 4
+    m_ShaderType: 2
+    m_ShaderCompilerPlatform: 14
+    m_Count: 4
+    m_Keywords:
+    - DIRECTIONAL
+    - LIGHTPROBE_SH
+    - SHADOWS_SCREEN
+  - m_Name: Legacy Shaders/Diffuse
+    m_PassName: FORWARD
+    m_PassType: 5
+    m_ShaderType: 1
+    m_ShaderCompilerPlatform: 14
+    m_Count: 5
+    m_Keywords:
+    - POINT
+    - DIRECTIONAL
+    - SPOT
+    - POINT_COOKIE
+    - DIRECTIONAL_COOKIE
+  - m_Name: Legacy Shaders/Diffuse
+    m_PassName: FORWARD
+    m_PassType: 5
+    m_ShaderType: 2
+    m_ShaderCompilerPlatform: 14
+    m_Count: 5
+    m_Keywords:
+    - POINT
+    - DIRECTIONAL
+    - SPOT
+    - POINT_COOKIE
+    - DIRECTIONAL_COOKIE
+  - m_Name: Legacy Shaders/Diffuse
+    m_PassName: PREPASS
+    m_PassType: 6
+    m_ShaderType: 1
+    m_ShaderCompilerPlatform: 14
+    m_Count: 1
+    m_Keywords: []
+  - m_Name: Legacy Shaders/Diffuse
+    m_PassName: PREPASS
+    m_PassType: 6
+    m_ShaderType: 2
+    m_ShaderCompilerPlatform: 14
+    m_Count: 1
+    m_Keywords: []
+  - m_Name: Legacy Shaders/Diffuse
+    m_PassName: PREPASS
+    m_PassType: 7
+    m_ShaderType: 1
+    m_ShaderCompilerPlatform: 14
+    m_Count: 4
+    m_Keywords:
+    - LIGHTPROBE_SH
+    - UNITY_HDR_ON
+  - m_Name: Legacy Shaders/Diffuse
+    m_PassName: PREPASS
+    m_PassType: 7
+    m_ShaderType: 2
+    m_ShaderCompilerPlatform: 14
+    m_Count: 4
+    m_Keywords:
+    - LIGHTPROBE_SH
+    - UNITY_HDR_ON
+  - m_Name: Legacy Shaders/Diffuse
+    m_PassName: DEFERRED
+    m_PassType: 10
+    m_ShaderType: 1
+    m_ShaderCompilerPlatform: 14
+    m_Count: 4
+    m_Keywords:
+    - LIGHTPROBE_SH
+    - UNITY_HDR_ON
+  - m_Name: Legacy Shaders/Diffuse
+    m_PassName: DEFERRED
+    m_PassType: 10
+    m_ShaderType: 2
+    m_ShaderCompilerPlatform: 14
+    m_Count: 4
+    m_Keywords:
+    - LIGHTPROBE_SH
+    - UNITY_HDR_ON
+  - m_Name: Hidden/Internal-StencilWrite
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 1
+    m_ShaderCompilerPlatform: 14
+    m_Count: 1
+    m_Keywords: []
+  - m_Name: Hidden/Internal-StencilWrite
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 2
+    m_ShaderCompilerPlatform: 14
+    m_Count: 1
+    m_Keywords: []
+  - m_Name: Hidden/Internal-DepthNormalsTexture
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 1
+    m_ShaderCompilerPlatform: 14
+    m_Count: 1
+    m_Keywords: []
+  - m_Name: Hidden/Internal-DepthNormalsTexture
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 2
+    m_ShaderCompilerPlatform: 14
+    m_Count: 1
+    m_Keywords: []
+  - m_Name: Hidden/Internal-DepthNormalsTexture
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 1
+    m_ShaderCompilerPlatform: 14
+    m_Count: 1
+    m_Keywords: []
+  - m_Name: Hidden/Internal-DepthNormalsTexture
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 2
+    m_ShaderCompilerPlatform: 14
+    m_Count: 1
+    m_Keywords: []
+  - m_Name: Hidden/Internal-DepthNormalsTexture
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 1
+    m_ShaderCompilerPlatform: 14
+    m_Count: 1
+    m_Keywords: []
+  - m_Name: Hidden/Internal-DepthNormalsTexture
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 2
+    m_ShaderCompilerPlatform: 14
+    m_Count: 1
+    m_Keywords: []
+  - m_Name: Hidden/Internal-DepthNormalsTexture
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 1
+    m_ShaderCompilerPlatform: 14
+    m_Count: 1
+    m_Keywords: []
+  - m_Name: Hidden/Internal-DepthNormalsTexture
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 2
+    m_ShaderCompilerPlatform: 14
+    m_Count: 1
+    m_Keywords: []
+  - m_Name: Hidden/Internal-DepthNormalsTexture
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 1
+    m_ShaderCompilerPlatform: 14
+    m_Count: 1
+    m_Keywords: []
+  - m_Name: Hidden/Internal-DepthNormalsTexture
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 2
+    m_ShaderCompilerPlatform: 14
+    m_Count: 1
+    m_Keywords: []
+  - m_Name: Hidden/Internal-DepthNormalsTexture
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 1
+    m_ShaderCompilerPlatform: 14
+    m_Count: 1
+    m_Keywords: []
+  - m_Name: Hidden/Internal-DepthNormalsTexture
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 2
+    m_ShaderCompilerPlatform: 14
+    m_Count: 1
+    m_Keywords: []
+  - m_Name: Hidden/Internal-DepthNormalsTexture
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 1
+    m_ShaderCompilerPlatform: 14
+    m_Count: 1
+    m_Keywords: []
+  - m_Name: Hidden/Internal-DepthNormalsTexture
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 2
+    m_ShaderCompilerPlatform: 14
+    m_Count: 1
+    m_Keywords: []
+  - m_Name: Hidden/Internal-DepthNormalsTexture
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 1
+    m_ShaderCompilerPlatform: 14
+    m_Count: 1
+    m_Keywords: []
+  - m_Name: Hidden/Internal-DepthNormalsTexture
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 2
+    m_ShaderCompilerPlatform: 14
+    m_Count: 1
+    m_Keywords: []
+  - m_Name: Hidden/Internal-DepthNormalsTexture
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 1
+    m_ShaderCompilerPlatform: 14
+    m_Count: 1
+    m_Keywords: []
+  - m_Name: Hidden/Internal-DepthNormalsTexture
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 2
+    m_ShaderCompilerPlatform: 14
+    m_Count: 1
+    m_Keywords: []
+  - m_Name: Hidden/Internal-DepthNormalsTexture
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 1
+    m_ShaderCompilerPlatform: 14
+    m_Count: 1
+    m_Keywords: []
+  - m_Name: Hidden/Internal-DepthNormalsTexture
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 2
+    m_ShaderCompilerPlatform: 14
+    m_Count: 1
+    m_Keywords: []
+  - m_Name: Hidden/Internal-PrePassLighting
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 1
+    m_ShaderCompilerPlatform: 14
+    m_Count: 13
+    m_Keywords:
+    - POINT
+    - DIRECTIONAL
+    - SPOT
+    - POINT_COOKIE
+    - DIRECTIONAL_COOKIE
+    - SHADOWS_DEPTH
+    - SHADOWS_SOFT
+    - SHADOWS_SCREEN
+    - SHADOWS_CUBE
+  - m_Name: Hidden/Internal-PrePassLighting
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 2
+    m_ShaderCompilerPlatform: 14
+    m_Count: 13
+    m_Keywords:
+    - POINT
+    - DIRECTIONAL
+    - SPOT
+    - POINT_COOKIE
+    - DIRECTIONAL_COOKIE
+    - SHADOWS_DEPTH
+    - SHADOWS_SOFT
+    - SHADOWS_SCREEN
+    - SHADOWS_CUBE
+  - m_Name: Hidden/Internal-PrePassLighting
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 1
+    m_ShaderCompilerPlatform: 14
+    m_Count: 13
+    m_Keywords:
+    - POINT
+    - DIRECTIONAL
+    - SPOT
+    - POINT_COOKIE
+    - DIRECTIONAL_COOKIE
+    - SHADOWS_DEPTH
+    - SHADOWS_SOFT
+    - SHADOWS_SCREEN
+    - SHADOWS_CUBE
+  - m_Name: Hidden/Internal-PrePassLighting
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 2
+    m_ShaderCompilerPlatform: 14
+    m_Count: 13
+    m_Keywords:
+    - POINT
+    - DIRECTIONAL
+    - SPOT
+    - POINT_COOKIE
+    - DIRECTIONAL_COOKIE
+    - SHADOWS_DEPTH
+    - SHADOWS_SOFT
+    - SHADOWS_SCREEN
+    - SHADOWS_CUBE
+  - m_Name: Hidden/Internal-ScreenSpaceShadows
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 1
+    m_ShaderCompilerPlatform: 14
+    m_Count: 4
+    m_Keywords:
+    - SHADOWS_SPLIT_SPHERES
+    - SHADOWS_SINGLE_CASCADE
+  - m_Name: Hidden/Internal-ScreenSpaceShadows
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 2
+    m_ShaderCompilerPlatform: 14
+    m_Count: 4
+    m_Keywords:
+    - SHADOWS_SPLIT_SPHERES
+    - SHADOWS_SINGLE_CASCADE
+  - m_Name: Hidden/Internal-ScreenSpaceShadows
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 1
+    m_ShaderCompilerPlatform: 14
+    m_Count: 4
+    m_Keywords:
+    - SHADOWS_SPLIT_SPHERES
+    - SHADOWS_SINGLE_CASCADE
+  - m_Name: Hidden/Internal-ScreenSpaceShadows
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 2
+    m_ShaderCompilerPlatform: 14
+    m_Count: 4
+    m_Keywords:
+    - SHADOWS_SPLIT_SPHERES
+    - SHADOWS_SINGLE_CASCADE
+  - m_Name: Hidden/Internal-ScreenSpaceShadows
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 1
+    m_ShaderCompilerPlatform: 14
+    m_Count: 4
+    m_Keywords:
+    - SHADOWS_SPLIT_SPHERES
+    - SHADOWS_SINGLE_CASCADE
+  - m_Name: Hidden/Internal-ScreenSpaceShadows
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 2
+    m_ShaderCompilerPlatform: 14
+    m_Count: 4
+    m_Keywords:
+    - SHADOWS_SPLIT_SPHERES
+    - SHADOWS_SINGLE_CASCADE
+  - m_Name: Hidden/Internal-ScreenSpaceShadows
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 1
+    m_ShaderCompilerPlatform: 14
+    m_Count: 4
+    m_Keywords:
+    - SHADOWS_SPLIT_SPHERES
+    - SHADOWS_SINGLE_CASCADE
+  - m_Name: Hidden/Internal-ScreenSpaceShadows
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 2
+    m_ShaderCompilerPlatform: 14
+    m_Count: 4
+    m_Keywords:
+    - SHADOWS_SPLIT_SPHERES
+    - SHADOWS_SINGLE_CASCADE
+  - m_Name: Hidden/Internal-CombineDepthNormals
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 1
+    m_ShaderCompilerPlatform: 14
+    m_Count: 1
+    m_Keywords: []
+  - m_Name: Hidden/Internal-CombineDepthNormals
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 2
+    m_ShaderCompilerPlatform: 14
+    m_Count: 1
+    m_Keywords: []
+  - m_Name: Hidden/BlitCopy
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 1
+    m_ShaderCompilerPlatform: 14
+    m_Count: 1
+    m_Keywords: []
+  - m_Name: Hidden/BlitCopy
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 2
+    m_ShaderCompilerPlatform: 14
+    m_Count: 1
+    m_Keywords: []
+  - m_Name: Hidden/BlitCopyDepth
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 1
+    m_ShaderCompilerPlatform: 14
+    m_Count: 1
+    m_Keywords: []
+  - m_Name: Hidden/BlitCopyDepth
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 2
+    m_ShaderCompilerPlatform: 14
+    m_Count: 1
+    m_Keywords: []
+  - m_Name: Hidden/ConvertTexture
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 1
+    m_ShaderCompilerPlatform: 14
+    m_Count: 1
+    m_Keywords: []
+  - m_Name: Hidden/ConvertTexture
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 2
+    m_ShaderCompilerPlatform: 14
+    m_Count: 1
+    m_Keywords: []
+  - m_Name: Hidden/Internal-DeferredShading
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 1
+    m_ShaderCompilerPlatform: 14
+    m_Count: 26
+    m_Keywords:
+    - POINT
+    - DIRECTIONAL
+    - SPOT
+    - POINT_COOKIE
+    - DIRECTIONAL_COOKIE
+    - SHADOWS_DEPTH
+    - SHADOWS_SOFT
+    - SHADOWS_SCREEN
+    - SHADOWS_CUBE
+    - UNITY_HDR_ON
+  - m_Name: Hidden/Internal-DeferredShading
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 2
+    m_ShaderCompilerPlatform: 14
+    m_Count: 26
+    m_Keywords:
+    - POINT
+    - DIRECTIONAL
+    - SPOT
+    - POINT_COOKIE
+    - DIRECTIONAL_COOKIE
+    - SHADOWS_DEPTH
+    - SHADOWS_SOFT
+    - SHADOWS_SCREEN
+    - SHADOWS_CUBE
+    - UNITY_HDR_ON
+  - m_Name: Hidden/Internal-DeferredShading
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 1
+    m_ShaderCompilerPlatform: 14
+    m_Count: 1
+    m_Keywords: []
+  - m_Name: Hidden/Internal-DeferredShading
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 2
+    m_ShaderCompilerPlatform: 14
+    m_Count: 1
+    m_Keywords: []
+  - m_Name: Hidden/Internal-DeferredReflections
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 1
+    m_ShaderCompilerPlatform: 14
+    m_Count: 1
+    m_Keywords: []
+  - m_Name: Hidden/Internal-DeferredReflections
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 2
+    m_ShaderCompilerPlatform: 14
+    m_Count: 1
+    m_Keywords: []
+  - m_Name: Hidden/Internal-DeferredReflections
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 1
+    m_ShaderCompilerPlatform: 14
+    m_Count: 2
+    m_Keywords:
+    - UNITY_HDR_ON
+  - m_Name: Hidden/Internal-DeferredReflections
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 2
+    m_ShaderCompilerPlatform: 14
+    m_Count: 2
+    m_Keywords:
+    - UNITY_HDR_ON
+  - m_Name: Hidden/Internal-MotionVectors
+    m_PassName: 
+    m_PassType: 12
+    m_ShaderType: 1
+    m_ShaderCompilerPlatform: 14
+    m_Count: 1
+    m_Keywords: []
+  - m_Name: Hidden/Internal-MotionVectors
+    m_PassName: 
+    m_PassType: 12
+    m_ShaderType: 2
+    m_ShaderCompilerPlatform: 14
+    m_Count: 1
+    m_Keywords: []
+  - m_Name: Hidden/Internal-MotionVectors
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 1
+    m_ShaderCompilerPlatform: 14
+    m_Count: 1
+    m_Keywords: []
+  - m_Name: Hidden/Internal-MotionVectors
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 2
+    m_ShaderCompilerPlatform: 14
+    m_Count: 1
+    m_Keywords: []
+  - m_Name: Hidden/Internal-MotionVectors
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 1
+    m_ShaderCompilerPlatform: 14
+    m_Count: 1
+    m_Keywords: []
+  - m_Name: Hidden/Internal-MotionVectors
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 2
+    m_ShaderCompilerPlatform: 14
+    m_Count: 1
+    m_Keywords: []
+  - m_Name: Hidden/Internal-Flare
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 1
+    m_ShaderCompilerPlatform: 14
+    m_Count: 1
+    m_Keywords: []
+  - m_Name: Hidden/Internal-Flare
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 2
+    m_ShaderCompilerPlatform: 14
+    m_Count: 1
+    m_Keywords: []
+  - m_Name: Hidden/Internal-Halo
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 1
+    m_ShaderCompilerPlatform: 14
+    m_Count: 1
+    m_Keywords: []
+  - m_Name: Hidden/Internal-Halo
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 2
+    m_ShaderCompilerPlatform: 14
+    m_Count: 1
+    m_Keywords: []
+  - m_Name: Hidden/BlitCopyWithDepth
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 1
+    m_ShaderCompilerPlatform: 14
+    m_Count: 1
+    m_Keywords: []
+  - m_Name: Hidden/BlitCopyWithDepth
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 2
+    m_ShaderCompilerPlatform: 14
+    m_Count: 1
+    m_Keywords: []
+  - m_Name: Hidden/BlitToDepth
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 1
+    m_ShaderCompilerPlatform: 14
+    m_Count: 1
+    m_Keywords: []
+  - m_Name: Hidden/BlitToDepth
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 2
+    m_ShaderCompilerPlatform: 14
+    m_Count: 1
+    m_Keywords: []
+  - m_Name: Hidden/BlitToDepth_MSAA
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 1
+    m_ShaderCompilerPlatform: 14
+    m_Count: 1
+    m_Keywords: []
+  - m_Name: Hidden/BlitToDepth_MSAA
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 2
+    m_ShaderCompilerPlatform: 14
+    m_Count: 1
+    m_Keywords: []
+  - m_Name: Hidden/BlitCopyHDRTonemap
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 1
+    m_ShaderCompilerPlatform: 14
+    m_Count: 1
+    m_Keywords: []
+  - m_Name: Hidden/BlitCopyHDRTonemap
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 2
+    m_ShaderCompilerPlatform: 14
+    m_Count: 1
+    m_Keywords: []
+  - m_Name: Hidden/Internal-GUITextureClip
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 1
+    m_ShaderCompilerPlatform: 14
+    m_Count: 1
+    m_Keywords: []
+  - m_Name: Hidden/Internal-GUITextureClip
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 2
+    m_ShaderCompilerPlatform: 14
+    m_Count: 1
+    m_Keywords: []
+  - m_Name: Hidden/Internal-GUITextureClip
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 1
+    m_ShaderCompilerPlatform: 14
+    m_Count: 1
+    m_Keywords: []
+  - m_Name: Hidden/Internal-GUITextureClip
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 2
+    m_ShaderCompilerPlatform: 14
+    m_Count: 1
+    m_Keywords: []
+  - m_Name: Hidden/Internal-GUITextureClipText
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 1
+    m_ShaderCompilerPlatform: 14
+    m_Count: 1
+    m_Keywords: []
+  - m_Name: Hidden/Internal-GUITextureClipText
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 2
+    m_ShaderCompilerPlatform: 14
+    m_Count: 1
+    m_Keywords: []
+  - m_Name: Hidden/Internal-GUITextureClipText
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 1
+    m_ShaderCompilerPlatform: 14
+    m_Count: 1
+    m_Keywords: []
+  - m_Name: Hidden/Internal-GUITextureClipText
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 2
+    m_ShaderCompilerPlatform: 14
+    m_Count: 1
+    m_Keywords: []
+  - m_Name: Hidden/Internal-GUITexture
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 1
+    m_ShaderCompilerPlatform: 14
+    m_Count: 1
+    m_Keywords: []
+  - m_Name: Hidden/Internal-GUITexture
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 2
+    m_ShaderCompilerPlatform: 14
+    m_Count: 1
+    m_Keywords: []
+  - m_Name: Hidden/Internal-GUITexture
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 1
+    m_ShaderCompilerPlatform: 14
+    m_Count: 1
+    m_Keywords: []
+  - m_Name: Hidden/Internal-GUITexture
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 2
+    m_ShaderCompilerPlatform: 14
+    m_Count: 1
+    m_Keywords: []
+  - m_Name: Hidden/Internal-GUITextureBlit
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 1
+    m_ShaderCompilerPlatform: 14
+    m_Count: 1
+    m_Keywords: []
+  - m_Name: Hidden/Internal-GUITextureBlit
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 2
+    m_ShaderCompilerPlatform: 14
+    m_Count: 1
+    m_Keywords: []
+  - m_Name: Hidden/Internal-GUITextureBlit
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 1
+    m_ShaderCompilerPlatform: 14
+    m_Count: 1
+    m_Keywords: []
+  - m_Name: Hidden/Internal-GUITextureBlit
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 2
+    m_ShaderCompilerPlatform: 14
+    m_Count: 1
+    m_Keywords: []
+  - m_Name: Hidden/Internal-GUIRoundedRect
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 1
+    m_ShaderCompilerPlatform: 14
+    m_Count: 1
+    m_Keywords: []
+  - m_Name: Hidden/Internal-GUIRoundedRect
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 2
+    m_ShaderCompilerPlatform: 14
+    m_Count: 1
+    m_Keywords: []
+  - m_Name: Hidden/Internal-GUIRoundedRect
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 1
+    m_ShaderCompilerPlatform: 14
+    m_Count: 1
+    m_Keywords: []
+  - m_Name: Hidden/Internal-GUIRoundedRect
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 2
+    m_ShaderCompilerPlatform: 14
+    m_Count: 1
+    m_Keywords: []
+  - m_Name: Hidden/Internal-GUIRoundedRectWithColorPerBorder
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 1
+    m_ShaderCompilerPlatform: 14
+    m_Count: 1
+    m_Keywords: []
+  - m_Name: Hidden/Internal-GUIRoundedRectWithColorPerBorder
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 2
+    m_ShaderCompilerPlatform: 14
+    m_Count: 1
+    m_Keywords: []
+  - m_Name: Hidden/Internal-GUIRoundedRectWithColorPerBorder
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 1
+    m_ShaderCompilerPlatform: 14
+    m_Count: 1
+    m_Keywords: []
+  - m_Name: Hidden/Internal-GUIRoundedRectWithColorPerBorder
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 2
+    m_ShaderCompilerPlatform: 14
+    m_Count: 1
+    m_Keywords: []
+  - m_Name: Hidden/Internal-UIRDefault
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 1
+    m_ShaderCompilerPlatform: 14
+    m_Count: 1
+    m_Keywords: []
+  - m_Name: Hidden/Internal-UIRDefault
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 2
+    m_ShaderCompilerPlatform: 14
+    m_Count: 1
+    m_Keywords: []
+  - m_Name: Hidden/Internal-UIRDefault
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 1
+    m_ShaderCompilerPlatform: 14
+    m_Count: 1
+    m_Keywords: []
+  - m_Name: Hidden/Internal-UIRDefault
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 2
+    m_ShaderCompilerPlatform: 14
+    m_Count: 1
+    m_Keywords: []
+  - m_Name: Hidden/Internal-UIRAtlasBlitCopy
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 1
+    m_ShaderCompilerPlatform: 14
+    m_Count: 1
+    m_Keywords: []
+  - m_Name: Hidden/Internal-UIRAtlasBlitCopy
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 2
+    m_ShaderCompilerPlatform: 14
+    m_Count: 1
+    m_Keywords: []
+  - m_Name: Hidden/Internal-UIRDefaultWorld
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 1
+    m_ShaderCompilerPlatform: 14
+    m_Count: 1
+    m_Keywords: []
+  - m_Name: Hidden/Internal-UIRDefaultWorld
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 2
+    m_ShaderCompilerPlatform: 14
+    m_Count: 1
+    m_Keywords: []
+  - m_Name: Hidden/Internal-UIRDefaultWorld
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 1
+    m_ShaderCompilerPlatform: 14
+    m_Count: 1
+    m_Keywords: []
+  - m_Name: Hidden/Internal-UIRDefaultWorld
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 2
+    m_ShaderCompilerPlatform: 14
+    m_Count: 1
+    m_Keywords: []
+  - m_Name: Sprites/Default
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 1
+    m_ShaderCompilerPlatform: 14
+    m_Count: 4
+    m_Keywords:
+    - PIXELSNAP_ON
+    - ETC1_EXTERNAL_ALPHA
+  - m_Name: Sprites/Default
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 2
+    m_ShaderCompilerPlatform: 14
+    m_Count: 4
+    m_Keywords:
+    - PIXELSNAP_ON
+    - ETC1_EXTERNAL_ALPHA
+  - m_Name: Sprites/Mask
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 1
+    m_ShaderCompilerPlatform: 14
+    m_Count: 4
+    m_Keywords:
+    - PIXELSNAP_ON
+    - ETC1_EXTERNAL_ALPHA
+  - m_Name: Sprites/Mask
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 2
+    m_ShaderCompilerPlatform: 14
+    m_Count: 4
+    m_Keywords:
+    - PIXELSNAP_ON
+    - ETC1_EXTERNAL_ALPHA
+  - m_Name: UI/Default
+    m_PassName: Default
+    m_PassType: 0
+    m_ShaderType: 1
+    m_ShaderCompilerPlatform: 14
+    m_Count: 4
+    m_Keywords:
+    - UNITY_UI_ALPHACLIP
+    - UNITY_UI_CLIP_RECT
+  - m_Name: UI/Default
+    m_PassName: Default
+    m_PassType: 0
+    m_ShaderType: 2
+    m_ShaderCompilerPlatform: 14
+    m_Count: 4
+    m_Keywords:
+    - UNITY_UI_ALPHACLIP
+    - UNITY_UI_CLIP_RECT
+  - m_Name: UI/DefaultETC1
+    m_PassName: Default
+    m_PassType: 0
+    m_ShaderType: 1
+    m_ShaderCompilerPlatform: 14
+    m_Count: 4
+    m_Keywords:
+    - UNITY_UI_ALPHACLIP
+    - UNITY_UI_CLIP_RECT
+  - m_Name: UI/DefaultETC1
+    m_PassName: Default
+    m_PassType: 0
+    m_ShaderType: 2
+    m_ShaderCompilerPlatform: 14
+    m_Count: 4
+    m_Keywords:
+    - UNITY_UI_ALPHACLIP
+    - UNITY_UI_CLIP_RECT
+  - m_Name: Hidden/CubeBlur
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 1
+    m_ShaderCompilerPlatform: 14
+    m_Count: 1
+    m_Keywords: []
+  - m_Name: Hidden/CubeBlur
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 2
+    m_ShaderCompilerPlatform: 14
+    m_Count: 1
+    m_Keywords: []
+  - m_Name: Hidden/CubeBlur
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 1
+    m_ShaderCompilerPlatform: 14
+    m_Count: 1
+    m_Keywords: []
+  - m_Name: Hidden/CubeBlur
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 2
+    m_ShaderCompilerPlatform: 14
+    m_Count: 1
+    m_Keywords: []
+  - m_Name: Hidden/CubeCopy
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 1
+    m_ShaderCompilerPlatform: 14
+    m_Count: 1
+    m_Keywords: []
+  - m_Name: Hidden/CubeCopy
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 2
+    m_ShaderCompilerPlatform: 14
+    m_Count: 1
+    m_Keywords: []
+  - m_Name: Hidden/CubeCopy
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 1
+    m_ShaderCompilerPlatform: 14
+    m_Count: 1
+    m_Keywords: []
+  - m_Name: Hidden/CubeCopy
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 2
+    m_ShaderCompilerPlatform: 14
+    m_Count: 1
+    m_Keywords: []
+  - m_Name: Hidden/CubeBlend
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 1
+    m_ShaderCompilerPlatform: 14
+    m_Count: 1
+    m_Keywords: []
+  - m_Name: Hidden/CubeBlend
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 2
+    m_ShaderCompilerPlatform: 14
+    m_Count: 1
+    m_Keywords: []
+  - m_Name: Hidden/CubeBlend
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 1
+    m_ShaderCompilerPlatform: 14
+    m_Count: 1
+    m_Keywords: []
+  - m_Name: Hidden/CubeBlend
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 2
+    m_ShaderCompilerPlatform: 14
+    m_Count: 1
+    m_Keywords: []
+  - m_Name: Hidden/VR/BlitTexArraySlice
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 1
+    m_ShaderCompilerPlatform: 14
+    m_Count: 1
+    m_Keywords: []
+  - m_Name: Hidden/VR/BlitTexArraySlice
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 2
+    m_ShaderCompilerPlatform: 14
+    m_Count: 1
+    m_Keywords: []
+  - m_Name: Hidden/Internal-ODSWorldTexture
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 1
+    m_ShaderCompilerPlatform: 14
+    m_Count: 1
+    m_Keywords: []
+  - m_Name: Hidden/Internal-ODSWorldTexture
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 2
+    m_ShaderCompilerPlatform: 14
+    m_Count: 1
+    m_Keywords: []
+  - m_Name: Hidden/Internal-ODSWorldTexture
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 1
+    m_ShaderCompilerPlatform: 14
+    m_Count: 1
+    m_Keywords: []
+  - m_Name: Hidden/Internal-ODSWorldTexture
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 2
+    m_ShaderCompilerPlatform: 14
+    m_Count: 1
+    m_Keywords: []
+  - m_Name: Hidden/Internal-ODSWorldTexture
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 1
+    m_ShaderCompilerPlatform: 14
+    m_Count: 1
+    m_Keywords: []
+  - m_Name: Hidden/Internal-ODSWorldTexture
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 2
+    m_ShaderCompilerPlatform: 14
+    m_Count: 1
+    m_Keywords: []
+  - m_Name: Hidden/Internal-ODSWorldTexture
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 1
+    m_ShaderCompilerPlatform: 14
+    m_Count: 1
+    m_Keywords: []
+  - m_Name: Hidden/Internal-ODSWorldTexture
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 2
+    m_ShaderCompilerPlatform: 14
+    m_Count: 1
+    m_Keywords: []
+  - m_Name: Hidden/Internal-ODSWorldTexture
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 1
+    m_ShaderCompilerPlatform: 14
+    m_Count: 1
+    m_Keywords: []
+  - m_Name: Hidden/Internal-ODSWorldTexture
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 2
+    m_ShaderCompilerPlatform: 14
+    m_Count: 1
+    m_Keywords: []
+  - m_Name: Hidden/Internal-ODSWorldTexture
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 1
+    m_ShaderCompilerPlatform: 14
+    m_Count: 1
+    m_Keywords: []
+  - m_Name: Hidden/Internal-ODSWorldTexture
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 2
+    m_ShaderCompilerPlatform: 14
+    m_Count: 1
+    m_Keywords: []
+  - m_Name: Hidden/Internal-ODSWorldTexture
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 1
+    m_ShaderCompilerPlatform: 14
+    m_Count: 1
+    m_Keywords: []
+  - m_Name: Hidden/Internal-ODSWorldTexture
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 2
+    m_ShaderCompilerPlatform: 14
+    m_Count: 1
+    m_Keywords: []
+  - m_Name: Hidden/Internal-ODSWorldTexture
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 1
+    m_ShaderCompilerPlatform: 14
+    m_Count: 1
+    m_Keywords: []
+  - m_Name: Hidden/Internal-ODSWorldTexture
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 2
+    m_ShaderCompilerPlatform: 14
+    m_Count: 1
+    m_Keywords: []
+  - m_Name: Hidden/Internal-ODSWorldTexture
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 1
+    m_ShaderCompilerPlatform: 14
+    m_Count: 1
+    m_Keywords: []
+  - m_Name: Hidden/Internal-ODSWorldTexture
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 2
+    m_ShaderCompilerPlatform: 14
+    m_Count: 1
+    m_Keywords: []
+  - m_Name: Hidden/Internal-ODSWorldTexture
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 1
+    m_ShaderCompilerPlatform: 14
+    m_Count: 1
+    m_Keywords: []
+  - m_Name: Hidden/Internal-ODSWorldTexture
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 2
+    m_ShaderCompilerPlatform: 14
+    m_Count: 1
+    m_Keywords: []
+  - m_Name: Hidden/Internal-CubemapToEquirect
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 1
+    m_ShaderCompilerPlatform: 14
+    m_Count: 1
+    m_Keywords: []
+  - m_Name: Hidden/Internal-CubemapToEquirect
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 2
+    m_ShaderCompilerPlatform: 14
+    m_Count: 1
+    m_Keywords: []
+  - m_Name: Hidden/VR/BlitFromTex2DToTexArraySlice
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 1
+    m_ShaderCompilerPlatform: 14
+    m_Count: 1
+    m_Keywords: []
+  - m_Name: Hidden/VR/BlitFromTex2DToTexArraySlice
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 2
+    m_ShaderCompilerPlatform: 14
+    m_Count: 1
+    m_Keywords: []
+  - m_Name: Hidden/VR/BlitFromTex2DToTexArraySlice
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 3
+    m_ShaderCompilerPlatform: 14
+    m_Count: 1
+    m_Keywords: []
+  - m_Name: Hidden/VideoComposite
+    m_PassName: Default
+    m_PassType: 0
+    m_ShaderType: 1
+    m_ShaderCompilerPlatform: 14
+    m_Count: 1
+    m_Keywords: []
+  - m_Name: Hidden/VideoComposite
+    m_PassName: Default
+    m_PassType: 0
+    m_ShaderType: 2
+    m_ShaderCompilerPlatform: 14
+    m_Count: 1
+    m_Keywords: []
+  - m_Name: Hidden/VideoDecode
+    m_PassName: YCbCr_To_RGB1
+    m_PassType: 0
+    m_ShaderType: 1
+    m_ShaderCompilerPlatform: 14
+    m_Count: 2
+    m_Keywords:
+    - ADJUST_TO_LINEARSPACE
+  - m_Name: Hidden/VideoDecode
+    m_PassName: YCbCr_To_RGB1
+    m_PassType: 0
+    m_ShaderType: 2
+    m_ShaderCompilerPlatform: 14
+    m_Count: 2
+    m_Keywords:
+    - ADJUST_TO_LINEARSPACE
+  - m_Name: Hidden/VideoDecode
+    m_PassName: YCbCrA_To_RGBAFull
+    m_PassType: 0
+    m_ShaderType: 1
+    m_ShaderCompilerPlatform: 14
+    m_Count: 2
+    m_Keywords:
+    - ADJUST_TO_LINEARSPACE
+  - m_Name: Hidden/VideoDecode
+    m_PassName: YCbCrA_To_RGBAFull
+    m_PassType: 0
+    m_ShaderType: 2
+    m_ShaderCompilerPlatform: 14
+    m_Count: 2
+    m_Keywords:
+    - ADJUST_TO_LINEARSPACE
+  - m_Name: Hidden/VideoDecode
+    m_PassName: YCbCrA_To_RGBA
+    m_PassType: 0
+    m_ShaderType: 1
+    m_ShaderCompilerPlatform: 14
+    m_Count: 2
+    m_Keywords:
+    - ADJUST_TO_LINEARSPACE
+  - m_Name: Hidden/VideoDecode
+    m_PassName: YCbCrA_To_RGBA
+    m_PassType: 0
+    m_ShaderType: 2
+    m_ShaderCompilerPlatform: 14
+    m_Count: 2
+    m_Keywords:
+    - ADJUST_TO_LINEARSPACE
+  - m_Name: Hidden/VideoDecode
+    m_PassName: Flip_RGBA_To_RGBA
+    m_PassType: 0
+    m_ShaderType: 1
+    m_ShaderCompilerPlatform: 14
+    m_Count: 2
+    m_Keywords:
+    - ADJUST_TO_LINEARSPACE
+  - m_Name: Hidden/VideoDecode
+    m_PassName: Flip_RGBA_To_RGBA
+    m_PassType: 0
+    m_ShaderType: 2
+    m_ShaderCompilerPlatform: 14
+    m_Count: 2
+    m_Keywords:
+    - ADJUST_TO_LINEARSPACE
+  - m_Name: Hidden/VideoDecode
+    m_PassName: Flip_RGBASplit_To_RGBA
+    m_PassType: 0
+    m_ShaderType: 1
+    m_ShaderCompilerPlatform: 14
+    m_Count: 2
+    m_Keywords:
+    - ADJUST_TO_LINEARSPACE
+  - m_Name: Hidden/VideoDecode
+    m_PassName: Flip_RGBASplit_To_RGBA
+    m_PassType: 0
+    m_ShaderType: 2
+    m_ShaderCompilerPlatform: 14
+    m_Count: 2
+    m_Keywords:
+    - ADJUST_TO_LINEARSPACE
+  - m_Name: Hidden/VideoDecode
+    m_PassName: Flip_NV12_To_RGB1
+    m_PassType: 0
+    m_ShaderType: 1
+    m_ShaderCompilerPlatform: 14
+    m_Count: 2
+    m_Keywords:
+    - ADJUST_TO_LINEARSPACE
+  - m_Name: Hidden/VideoDecode
+    m_PassName: Flip_NV12_To_RGB1
+    m_PassType: 0
+    m_ShaderType: 2
+    m_ShaderCompilerPlatform: 14
+    m_Count: 2
+    m_Keywords:
+    - ADJUST_TO_LINEARSPACE
+  - m_Name: Hidden/VideoDecode
+    m_PassName: Flip_NV12_To_RGBA
+    m_PassType: 0
+    m_ShaderType: 1
+    m_ShaderCompilerPlatform: 14
+    m_Count: 2
+    m_Keywords:
+    - ADJUST_TO_LINEARSPACE
+  - m_Name: Hidden/VideoDecode
+    m_PassName: Flip_NV12_To_RGBA
+    m_PassType: 0
+    m_ShaderType: 2
+    m_ShaderCompilerPlatform: 14
+    m_Count: 2
+    m_Keywords:
+    - ADJUST_TO_LINEARSPACE
+  - m_Name: Hidden/VideoDecode
+    m_PassName: Flip_P010_To_RGB1
+    m_PassType: 0
+    m_ShaderType: 1
+    m_ShaderCompilerPlatform: 14
+    m_Count: 1
+    m_Keywords: []
+  - m_Name: Hidden/VideoDecode
+    m_PassName: Flip_P010_To_RGB1
+    m_PassType: 0
+    m_ShaderType: 2
+    m_ShaderCompilerPlatform: 14
+    m_Count: 1
+    m_Keywords: []
+  - m_Name: Hidden/Compositing
+    m_PassName: Mix_RGBA_To_RGBA
+    m_PassType: 0
+    m_ShaderType: 1
+    m_ShaderCompilerPlatform: 14
+    m_Count: 1
+    m_Keywords: []
+  - m_Name: Hidden/Compositing
+    m_PassName: Mix_RGBA_To_RGBA
+    m_PassType: 0
+    m_ShaderType: 2
+    m_ShaderCompilerPlatform: 14
+    m_Count: 1
+    m_Keywords: []
+  - m_Name: Hidden/TextCore/Distance Field SSD
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 1
+    m_ShaderCompilerPlatform: 14
+    m_Count: 1
+    m_Keywords: []
+  - m_Name: Hidden/TextCore/Distance Field SSD
+    m_PassName: 
+    m_PassType: 0
+    m_ShaderType: 2
+    m_ShaderCompilerPlatform: 14
+    m_Count: 1
+    m_Keywords: []
